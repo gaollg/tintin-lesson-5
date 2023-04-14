@@ -22,3 +22,4 @@ graph deploy --product hosted-service gaollg/crowdfundinglesson5homework
 
 ### 作业3:请使用sungraph完成一次合约bid事件的索引
 
+<img src="./image/thegraph.com_query_result.png">
