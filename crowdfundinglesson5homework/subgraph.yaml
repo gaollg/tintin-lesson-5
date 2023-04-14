@@ -1,0 +1,27 @@
+specVersion: 0.0.5
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: CrowdFundingLesson5Homework
+    network: mumbai
+    source:
+      address: "0x64CD39cE8A4a958e9799A1466A9DEbB07863fcaF"
+      abi: CrowdFundingLesson5Homework
+      startBlock: 34352974
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - CampaignBidLog
+        - CampaignLog
+      abis:
+        - name: CrowdFundingLesson5Homework
+          file: ./abis/CrowdFundingLesson5Homework.json
+      eventHandlers:
+        - event: CampaignBidLog(uint256,address,uint256)
+          handler: handleCampaignBidLog
+        - event: CampaignLog(uint256,address,uint256)
+          handler: handleCampaignLog
+      file: ./src/crowd-funding-lesson-5-homework.ts
