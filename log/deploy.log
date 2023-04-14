@@ -1,0 +1,30 @@
+graph deploy --product hosted-service gaollg/crowdfundinglesson5homework
+  Skip migration: Bump mapping apiVersion from 0.0.1 to 0.0.2
+  Skip migration: Bump mapping apiVersion from 0.0.2 to 0.0.3
+  Skip migration: Bump mapping apiVersion from 0.0.3 to 0.0.4
+  Skip migration: Bump mapping apiVersion from 0.0.4 to 0.0.5
+  Skip migration: Bump mapping apiVersion from 0.0.5 to 0.0.6
+  Skip migration: Bump manifest specVersion from 0.0.1 to 0.0.2
+  Skip migration: Bump manifest specVersion from 0.0.2 to 0.0.4
+√ Apply migrations
+√ Load subgraph from subgraph.yaml
+  Compile data source: CrowdFundingLesson5Homework => build\CrowdFundingLesson5Homework\CrowdFundingLesson5Homework.wasm
+√ Compile subgraph
+  Copy schema file build\schema.graphql
+  Write subgraph file build\CrowdFundingLesson5Homework\abis\CrowdFundingLesson5Homework.json
+  Write subgraph manifest build\subgraph.yaml
+√ Write compiled subgraph to build\
+  Add file to IPFS build\schema.graphql
+                .. QmbYeoF3CeC7p7soGrg8nYS3JqgXekkZCsU7QfvEfwcK9S
+  Add file to IPFS build\CrowdFundingLesson5Homework\abis\CrowdFundingLesson5Homework.json
+                .. QmQzzkrJC4HZCEqKP2B9NHXcYcfNyRVyQvz5NdGekcY5B6
+  Add file to IPFS build\CrowdFundingLesson5Homework\CrowdFundingLesson5Homework.wasm
+                .. QmRE56DJiDv3TdKtcde22YXzmUVrsvFdGUwn6p5nhHty5p
+√ Upload subgraph to IPFS
+
+Build completed: QmPjzGUrui2YsvVWeENWaJioYzgU462rHGaqBT1VPgjrNS
+
+Deployed to https://thegraph.com/explorer/subgraph/gaollg/crowdfundinglesson5homework
+
+Subgraph endpoints:
+Queries (HTTP):     https://api.thegraph.com/subgraphs/name/gaollg/crowdfundinglesson5homework
